@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - QuickMeds</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>QuickMeds</h1>
+                    <p class="tagline">Your Health, Our Priority</p>
+                </div>
+                <nav class="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="products.html" class="active">Products</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="login.html">Login</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="page-title">Our Products</h2>
+            <p class="page-subtitle">Browse our wide range of quality medicines and healthcare products</p>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f3 100%); font-size: 60px;">💊</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Paracetamol 500mg</h3>
+                        <p class="product-desc">Pain relief & fever reducer - Strip of 10 tablets</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹45.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Paracetamol 500mg', 45)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); font-size: 60px;">🍊</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vitamin C Tablets</h3>
+                        <p class="product-desc">Immunity booster - Bottle of 30 tablets</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹120.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Vitamin C Tablets', 120)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%); font-size: 60px;">🍯</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cough Syrup</h3>
+                        <p class="product-desc">Relief from dry & wet cough - 100ml bottle</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹85.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Cough Syrup', 85)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); font-size: 60px;">🩹</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Antiseptic Cream</h3>
+                        <p class="product-desc">Wound healing & protection - 20g tube</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹65.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Antiseptic Cream', 65)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%); font-size: 60px;">💊</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Multivitamin Capsules</h3>
+                        <p class="product-desc">Daily nutritional support - 30 capsules</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹250.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Multivitamin Capsules', 250)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%); font-size: 60px;">🧪</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pain Relief Gel</h3>
+                        <p class="product-desc">For muscle and joint pain - 30g tube</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹95.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Pain Relief Gel', 95)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #fffde7 0%, #fff9c4 100%); font-size: 60px;">🦴</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Calcium Tablets</h3>
+                        <p class="product-desc">Bone health supplement - 60 tablets</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹180.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Calcium Tablets', 180)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #efebe9 0%, #d7ccc8 100%); font-size: 60px;">💊</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Digestive Tablets</h3>
+                        <p class="product-desc">Relief from indigestion - 20 tablets</p>
+                        <div class="product-footer">
+                            <span class="product-price">₹55.00</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Digestive Tablets', 55)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QuickMeds</h3>
+                    <p>Your trusted online pharmacy for quality medicines and healthcare products.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: support@quickmeds.com</p>
+                    <p>Phone: +91 1800-123-4567</p>
+                    <p>Available 24/7</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 QuickMeds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Check for search term from home page
+        window.addEventListener('DOMContentLoaded', function() {
+            const searchTerm = localStorage.getItem('searchTerm');
+            if (searchTerm) {
+                filterProducts(searchTerm);
+                localStorage.removeItem('searchTerm');
+            }
+        });
+        
+        // Filter products based on search term
+        function filterProducts(searchTerm) {
+            const productCards = document.querySelectorAll('.product-card');
+            let foundCount = 0;
+            
+            productCards.forEach(card => {
+                const productName = card.querySelector('.product-name').textContent.toLowerCase();
+                const productDesc = card.querySelector('.product-desc').textContent.toLowerCase();
+                const searchLower = searchTerm.toLowerCase();
+                
+                if (productName.includes(searchLower) || productDesc.includes(searchLower)) {
+                    card.style.display = 'block';
+                    foundCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            if (foundCount === 0) {
+                alert('No products found matching "' + searchTerm + '". Showing all products.');
+                productCards.forEach(card => card.style.display = 'block');
+            }
+        }
+        
+        function addToCart(productName, price) {
+            // Get existing cart items from localStorage
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            
+            // Check if item already exists in cart
+            const existingItem = cart.find(item => item.name === productName);
+            
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({
+                    name: productName,
+                    price: price,
+                    quantity: 1
+                });
+            }
+            
+            // Save updated cart to localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert(productName + ' added to cart!');
+        }
+    </script>
+</body>
+</html>
